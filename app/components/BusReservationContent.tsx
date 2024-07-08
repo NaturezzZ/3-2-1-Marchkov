@@ -47,9 +47,9 @@ const BusReservationContent: React.FC<BusReservationContentProps> = ({
       );
     }
 
-    if (!isAuthenticated) {
-      return <PageLogin handleLogin={handleLogin} />;
-    }
+    // if (!isAuthenticated) {
+    //   return <PageLogin handleLogin={handleLogin} />;
+    // }
 
     if (reservationResult) {
       return (
